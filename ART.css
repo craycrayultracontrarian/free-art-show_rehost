@@ -1,0 +1,25 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+#pic{
+    width: 100vw;
+	padding-bottom: 80px;
+}
+#button1 {
+
+	float: left;
+	width: 46.5%;
+	padding: 1.5vw;
+}
+#button2 {
+
+	padding: 1.5vw;
+	float: right;
+	width: 46.5%;
+
+}
