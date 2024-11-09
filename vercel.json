@@ -1,9 +1,11 @@
 {
+    "vercelToolbar": false,
     "rewrites": [
       {
         "source": "/:path",
         "destination": "/:path.html"
       }
     ]
+    
   }
   
