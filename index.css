@@ -1,48 +1,30 @@
+*{
+    margin: 0;
+}
 @font-face {
     font-family: DollarBill;
     src: url("DollarBill.ttf");
 }
-* {
-    margin: 0;
-    overflow-x: hidden;
-
-}
 body::-webkit-scrollbar {
     display: none;
   }
-
-h1 {
-        font-family: DollarBill;
-        font-size: 9.5vw;
-        display:block;
-        text-align: center;
-  }
-.free {
-	padding-top: 20px;
-	padding-bottom: -10px;
-
-}
-
-.clear {
+#top {
     width: 100vw;
-    height: 2163px;
-    position: absolute;
-    top: 0;
 }
-
-a,h1{
-    text-decoration: none;
-    color: black;
+#free{
+    width: 100vw;
 }
-#backgroundimg {
-    width: 200vw;
-
-    
+#bot{
+    width: 100vw;
 }
-@media only screen and (min-width: 600px){
-    #backgroundimg{
-        width: 100vw;
-    }
+#art{
+    width: 100%;
+}
+#shirt{
+    width: 100%;
+}
+.abottom{
+    width: 49%;
 }
 
 #button1 {

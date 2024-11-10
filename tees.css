@@ -1,0 +1,60 @@
+@font-face {
+    font-family: DollarBill;
+    src: url("DollarBill.ttf");
+}
+* {
+    margin: 0;
+    overflow-x: hidden;
+
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+h1 {
+        font-family: DollarBill;
+        font-size: 9.5vw;
+        display:block;
+        text-align: center;
+  }
+.free {
+	padding-top: 20px;
+	padding-bottom: -10px;
+
+}
+
+.clear {
+    width: 100vw;
+    height: 2163px;
+    position: absolute;
+    top: 0;
+}
+
+a,h1{
+    text-decoration: none;
+    color: black;
+}
+#backgroundimg {
+    width: 200vw;
+
+    
+}
+@media only screen and (min-width: 600px){
+    #backgroundimg{
+        width: 100vw;
+    }
+}
+
+#button1 {
+
+	float: left;
+	width: 46.5%;
+	padding: 1.5vw;
+}
+#button2 {
+
+	padding: 1.5vw;
+	float: right;
+	width: 46.5%;
+
+}
