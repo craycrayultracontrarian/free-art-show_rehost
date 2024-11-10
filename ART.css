@@ -9,6 +9,8 @@ body::-webkit-scrollbar {
 #pic{
     width: 100vw;
 	padding-bottom: 80px;
+	max-width: 100%;
+    height: auto;
 }
 #button1 {
 
@@ -18,8 +20,8 @@ body::-webkit-scrollbar {
 }
 #button2 {
 
-	padding: 1.5vw;
 	float: right;
 	width: 46.5%;
+	padding: 1.5vw;
 
 }
